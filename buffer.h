@@ -25,9 +25,9 @@
 * ------------------------------ESTRUCTURA DEL TAD------------------------------
 * Tipo de dato exportado: puntero a estructura de tipo ST_BUFFER
 * Campos:
-*		- values: variable que apunta al primer elemento del buffer.
-*		- size: número de elementos que puede almacenar el buffer.
-*		- count: número de elementos que se han insertado en el buffer.
+*       - values: variable que apunta al primer elemento del buffer.
+*       - size: número de elementos que puede almacenar el buffer.
+*       - count: número de elementos que se han insertado en el buffer.
 *       - file: fichero para el almacenamiento del buffer.
 *       - count_file: fichero para el almacenamiento de la variable count.
 */
@@ -44,11 +44,11 @@ typedef int BufferValue;
 * De los tres campos de la estructura buffer, solo dos se pueden modificar
 * posteriormente a la creación del buffer:
 *		- Variable   count: el entero apuntado por 'count' puede verse 
-*							decrementado o incrementado con el uso de las 
-*							funciones 'LIFO_pop' y 'LIFO_push'.
+*                           decrementado o incrementado con el uso de las 
+*                           funciones 'LIFO_pop' y 'LIFO_push'.
 *
 *		- Array de valores: los valores del array pueden ser modificados 
-*							mediante las funciones 'LIFO_pop' y 'LIFO_push', 
+*                           mediante las funciones 'LIFO_pop' y 'LIFO_push', 
 *                           pudiendo modificar solamente el último valor 
 *                           insertado.
 */
